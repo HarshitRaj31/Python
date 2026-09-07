@@ -1,0 +1,10 @@
+import numpy as np
+a=np.arange(1,11)
+print("Array=\n",a)
+print("Shape= ",a.shape)
+print("Dimension= ",a.ndim)
+print("Data type= ",a.dtype.name)
+print("Size of element(in bytes)= ",a.itemsize)
+print("Size of array= ",a.size)
+print("Buffer object start of data= ",a.data)
+print("Type= ",type(a))
